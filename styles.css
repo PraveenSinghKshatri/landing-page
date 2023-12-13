@@ -250,7 +250,7 @@ a:hover{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+   
     color: #1F2937;
     font-size: 36px;
     width: 1000px;
@@ -266,10 +266,18 @@ a:hover{
 
 }
 
-.author p{
+.author {
+    display: flex;
     margin-top: 10px;
     font-size: 24px;
-    font-weight: bold;
+    font-weight: 300;
+    justify-content: end;
+    text-align: right;
+ 
+}
+
+.underline{
+    border-bottom: 3px solid #3882F6;
 }
 
 #cta{
