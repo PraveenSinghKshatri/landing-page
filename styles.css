@@ -266,8 +266,9 @@ a:hover{
 
 }
 
-.author{
+.author p{
     margin-top: 10px;
+    font-size: 24px;
 }
 
 #cta{
