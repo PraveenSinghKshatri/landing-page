@@ -85,7 +85,7 @@ color:#1F2937
     
 }
 
-a{
+nav a{
     text-decoration: none;
     padding: 25px;
     font-size: 18px;
@@ -98,7 +98,7 @@ a{
 
 }
 
-a:hover{
+nav a:hover{
     background-color: #3882F6;
     border-radius: 25px;
     text-shadow: 1px 1px #111;
@@ -183,6 +183,7 @@ a:hover{
     width: 100%;
 }
 
+/* Gallery */
 #gallery h1{
    
     font-size: 36px;
@@ -192,7 +193,7 @@ a:hover{
 }
 
 .items{
-    padding: 0;
+    padding: 0 100px;
     margin: 0;
     display: flex;
     justify-content: center;
@@ -243,6 +244,7 @@ a:hover{
 
 }
 
+/* Quote */
 #quote{
     margin: 0;
     padding: 100px;
@@ -282,6 +284,7 @@ a:hover{
     border-bottom: 3px solid #3882F6;
 }
 
+/* Call to action button */
 #cta{
     width: 1200px;
     margin: 0;
@@ -314,6 +317,12 @@ a:hover{
     border: 1px solid #F9FAF8;
 }
 
+.btn a{
+    text-decoration: none;
+    color: #F9FAF8;
+}
+
+/* Footer */
 #footer{
     width: 1200px;
     color: #F9FAF8;
