@@ -98,12 +98,19 @@
         </div>
 <!-- footer -->
         <div id="footer">
-            <p>Copyright &copy; Praveen Singh <script>
-                document.write(new Date().getFullYear())
-              </script>. Made with <i class="fa-sharp fa-solid fa-heart fa-beat" style="color: #ff004f;"></i> love!</p>
+            <p>Copyright &copy; <span id="copyright-year"></span> Praveen Singh. Made with <i class="fa-sharp fa-solid fa-heart fa-beat" style="color: #ff004f;"></i> love!</p>
         </div>
 
-    </div>
+    </div>  
+
+    <script>
+        // JavaScript to display the range of years in the copyright notice
+        const copyrightYearElement = document.getElementById('copyright-year');
+        const startYear = 2023;
+        const currentYear = new Date().getFullYear();
+        const yearRange = (startYear === currentYear) ? currentYear : `${startYear} - ${currentYear}`;
+        copyrightYearElement.textContent = yearRange;
+    </script>
     
 </body>
 </html>
